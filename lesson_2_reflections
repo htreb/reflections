@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git creates a .git repository but puts nothing in it yet, that way when you save a commit you can leave your own commit note. you need to initialise one so you have a repository in the first place.
+

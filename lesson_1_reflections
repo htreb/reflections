@@ -1,0 +1,36 @@
+I found comparing files in the command line much easier than doing it by eye but still find the command line unnecessarily awkward to use now that we have a GUI available for us these days. It's hard to work out what I'm looking at and what commands are available to me I seem to have to just memorise them all.
+
+
+
+having version control automatically would help back up all files in case I break the code or I go down a path and realise it was better off before. It would also help from having loads of files saved as cv final, cv final2 cv THIS ONE IS IT etc.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+manually choosing when to commit means that I won't get an auto save right in the middle of typing a line of code, or before the bit I'm working on is finished. This means that each commit will work itself and it will be easier to understand. Also at each commit I will leave a small note to be able to see what change I made.
+The big downside is if i forget to manually save very often I could lose a load of work.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+because in coding often files reference each other and inherit things from these other files its important to maintain them simulatiniously. so if you add somthing to a webpage youd want both html and css files updated at the same time.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log prints out the id and a short description of all the commits (previous file saves) of the file and searching through it you can find the id of the one you are looking for it is listed in reverse chronological order so the commit before will be below it. Then using git diff idyouareinterestedin idtheonebeforeorinthiscasebelow and then press enter it will show you the differences highlighted green for added and red for deleted.(note if it doesn't use command git config --global color.ui auto). I seem to have bug in the above step, after git log i find my two ids to git diff but it prints out the diff as soon as I paste the first and before i can even press space or enter to get the second in there :( just tried it again and it seems ok, weird.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+knowing that I have version control and all previous commits stored and easily accessible I can know no only that it is easy to return to previously working commits before I might make a bug, but I can also use git diff to work out exactly what caused the bug buy seeing the line which was added / removed. I can use git checkout to return to a previous commit and open it to see how it acts. (be careful when opening a previous commit you will be entering a 'headless state' and I need to be careful of saving into different branches etc.)
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'm still not entirely sure of the benefits of git looks like I'll stick with it as it's used to work with git hub, and git hub sounds useful in coding using commits and whatnot so I'll see what the next lesson holds for me.
