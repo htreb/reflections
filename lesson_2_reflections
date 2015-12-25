@@ -13,3 +13,33 @@ the staging area is an inbetween area. the working directory is like the regular
 
 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+you can used git diff with no arguments to compare the working directory and the staging area. if you run git diff --staged you can check the repository with the staging area, using these two you can see if there are more that one changes in the staging area and the repository before you commit.
+
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches would be useful when the project you are working on can branch i.e. make an experimental feature you're not sure you will you or seasonal theam. or writing it in german etc.
+
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+its easier to visualise how branches diverge away from each other and the parent that they both share. you can also use it to see the braches which you cannot reach in your git log
+you can use the codes 
+
+git log --graph --oneline 
+
+master coins to show a visualisation of them
+
+
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+it picks the files added and removed compared to the nearst parent of the two branches before they diverged from each other if me and bob both worked on different branches and bob decided to remove a few lines and I added some and tghen removed others, I knows we've made a concious effort to add / remove them from compared to the original and it will keep these changes in the merged branch at the end
