@@ -1,4 +1,11 @@
 when would you want to create a remote repository rather than keeping all your work local?
+
 a remote repository is useful when working in a team you can work with people down the hall or the otherside of the world away and we can ll sahre the same working can commits.
+
+
+
  
  
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+choosing when to manaully push or pull commits is best when working on projects in a team you can work on you wn sections to see whether you are happy with them before choosing to push them to rmeote origin similarly you may want to stick to your own work before pull in the remote files into your own computer. if you do it manually then you get to choose when that happens.
