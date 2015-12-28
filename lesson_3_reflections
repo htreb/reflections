@@ -9,3 +9,12 @@ a remote repository is useful when working in a team you can work with people do
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 choosing when to manaully push or pull commits is best when working on projects in a team you can work on you wn sections to see whether you are happy with them before choosing to push them to rmeote origin similarly you may want to stick to your own work before pull in the remote files into your own computer. if you do it manually then you get to choose when that happens.
+
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+a fork is only used on GitHUB on the website. it is used to clone a repository (which you may not have authority to change) to your own rirectory, then you can make changes yourself which will not affect the original.
+a clone is a copy of a repository, you can clone one from github onto your local computer, or you can clone one locally to locally.
+a branch can be both on github or locally, it is a copy of the repository at the time so you can work alongside and then merge later.
