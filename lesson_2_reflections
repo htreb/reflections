@@ -43,3 +43,19 @@ master coins to show a visualisation of them
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 it picks the files added and removed compared to the nearst parent of the two branches before they diverged from each other if me and bob both worked on different branches and bob decided to remove a few lines and I added some and tghen removed others, I knows we've made a concious effort to add / remove them from compared to the original and it will keep these changes in the merged branch at the end
+
+
+
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+git automatic merging takes the headache out of sifting through files. if me and a buddy are both working on the same set of files and we both decide to delete the same one then it is not needed in the final merge, if I add one then it will be needed. If we both work on the same one and change it slightly differently then it will ask me to read through it to work out which changes I will need to keep, it can't easily work this out itself. i.e. game.js has conflicts so I open it and it I can search for a few >>>> <<<<< |||||| symbols highlighting the area of the current branch the original parent we were both working on and the other brach we are merging with, after editing out these differences and removing the ones I don't need I can then commit to complete the merge. (uncomment out the bit talking about the conflict as it's useful to have as a note.)
+
+
+
+
+
+
+
