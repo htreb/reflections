@@ -40,3 +40,6 @@ collaborating would be much harder youd need to work in the same room at the sam
 
 
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in different branches is a bit of pain as you need to make pull requests and merge conflicts, you might need to pull the branch to you local computer then merge it and then push it back up again. but this is useful when collborating to make sure that conflicts do not arrise and can be resolved before being merged into the master branch. this keeps the master branch working. if i was working on my own I would use just the master branch unless I was going to try something experimental which I might or might not want to merge in later.
