@@ -30,3 +30,13 @@ if you have the last known state stored locally is usually under origin/master, 
 
 
 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+collaborating would be much harder youd need to work in the same room at the same time with people on the same file. if you were worked on different files then merging would be very time consuming as you wouldn't know what had changed. you wouldn't have all the previous commits to look though and you wouldn't have branches or pull requests either.
+
+
+
+
+
