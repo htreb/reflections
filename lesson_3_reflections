@@ -2,13 +2,14 @@ when would you want to create a remote repository rather than keeping all your w
 
 a remote repository is useful when working in a team you can work with people down the hall or the otherside of the world away and we can ll sahre the same working can commits.
 
-
-
  
+
+
  
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 choosing when to manaully push or pull commits is best when working on projects in a team you can work on you wn sections to see whether you are happy with them before choosing to push them to rmeote origin similarly you may want to stick to your own work before pull in the remote files into your own computer. if you do it manually then you get to choose when that happens.
+
 
 
 
@@ -18,3 +19,14 @@ Describe the differences between forks, clones, and branches. When would you use
 a fork is only used on GitHUB on the website. it is used to clone a repository (which you may not have authority to change) to your own rirectory, then you can make changes yourself which will not affect the original.
 a clone is a copy of a repository, you can clone one from github onto your local computer, or you can clone one locally to locally.
 a branch can be both on github or locally, it is a copy of the repository at the time so you can work alongside and then merge later.
+
+
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+if you have the last known state stored locally is usually under origin/master, if you continue to work locally (and others update the reopsitory online) then when you pull the repository again they will be about of sinc. You will get the message when you run git status that you are ahead of the main branch or something along those lines and you need to push your changes. to get back into sinc you can either fetch the repository and then merge the branch (the will both branch out of the previous 'last known state or common ancestor or origin/master') or you can pull and it will try to do both the fetching and ghe merging.
+
+
+
